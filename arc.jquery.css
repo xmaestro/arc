@@ -1,0 +1,40 @@
+#arc-wrapper{
+    background: lightyellow;
+    width: 902px;
+    height: 500px;
+    overflow: hidden;
+    text-align: center
+}
+
+#arc-timeline{
+    top: 450px;
+    left:435px;
+    position: absolute;
+}
+
+#arc-primary {
+    background: white;
+    width: 900px;
+    height: 900px;
+    border-radius: 50%;
+    border: 1px solid #000000;
+}
+
+#arc-secondary {
+    background: white;
+    margin-left: 100px;
+    margin-top:100px;
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    border: 1px solid #000000;
+}
+
+.arc-secondary-content{
+    display:none;
+}
+
+.timeline-menu-item{
+    display: inline-block;
+    text-decoration: none;
+}
